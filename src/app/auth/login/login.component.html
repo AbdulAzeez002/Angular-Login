@@ -1,0 +1,41 @@
+<div class="page-container">
+    <div class="header">Logo</div>
+    <div class="login-section">
+      <div class="login-box">
+        <form class="login-form">
+          <div>
+              <h1 class="sign-in-title">Sign In</h1>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="form-input"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              id="password"
+              class="form-input"
+              name="password"
+              placeholder="Enter password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <button class="login-button" (click)="NavigateToDashboard()">Login</button>
+          </div>
+          <div class="form-group">
+              <p class="new-user-link" (click)="NavigateToSignUp()">New to Azibiz? Register now</p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">Footer</div>
+  </div>
